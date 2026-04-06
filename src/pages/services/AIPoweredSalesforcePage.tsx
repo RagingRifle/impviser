@@ -13,6 +13,7 @@ import CustomerIcon from "../../assets/Aisalesforcepage/customer.png";
 import MarketingIcon from "../../assets/Aisalesforcepage/digital-marketing.png";
 import DecisionsIcon from "../../assets/Aisalesforcepage/analy.png";
 import AutomationIcon from "../../assets/Aisalesforcepage/automation.png";
+import SEO from "../../components/SEO";
 
 
 
@@ -112,6 +113,11 @@ const benefits: Benefit[] = [
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="AI-Powered Salesforce Implementation | Impviser"
+        description="Leverage AI and machine learning within Salesforce. Einstein AI, predictive analytics, and intelligent automation by Impviser."
+        canonical="/services/ai-powered-salesforce"
+      />
       {/* Hero Section */}
       <section className="relative py-20 text-white">
       {/* Background Image */}

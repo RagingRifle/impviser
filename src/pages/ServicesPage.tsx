@@ -22,6 +22,7 @@ import HubSpotLogo from "../assets/icons2/Hubspot.webp";
 import PowerBILogo from "../assets/icons2/PowerBI.webp";
 import TableauLogo from "../assets/icons2/Tableau.webp";
 import DataAnalyticsLogo from "../assets/icons2/analytics.png";
+import SEO from "../components/SEO";
 
 // ✅ CRM / Data icons as components
 const ZohoIcon = () => <img src={ZohoLogo} alt="Zoho" className="w-5 h-3" />;
@@ -77,6 +78,11 @@ const ServicesPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Our Services | Salesforce, CRM, Data Analytics & App Development | Impviser"
+        description="Explore Impviser's comprehensive services including Salesforce consulting, Zoho, HubSpot, Power BI, Tableau, and custom app development."
+        canonical="/services"
+      />
       {/* Hero Section */}
       <section
         className="py-44 relative bg-gradient-to-br from-blue-50 to-indigo-50"

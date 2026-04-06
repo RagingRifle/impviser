@@ -34,7 +34,7 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FiGift } from "react-icons/fi";
 import { BsPersonPlus } from "react-icons/bs";
 import Logo from "../assets/Impviser Logo B.png";
-import { Helmet } from "react-helmet-async";
+import SEO from "../components/SEO";
 import { 
  
   Code2, 
@@ -75,15 +75,6 @@ import powerbi from "../assets/icons/powerbi.png";
 */}
 
 const HomePage = () => {
-
-  <Helmet>
-        <title>Impviser | Innovative Business & Digital Solutions</title>
-
-        <meta
-          name="description"
-          content="Impviser helps businesses grow with innovative digital solutions, technology consulting, and strategic insights to transform ideas into successful businesses."
-        />
-      </Helmet>
   const stats = [
     { number: '500+', label: 'Projects Delivered', icon: CheckCircle },
     { number: '98%', label: 'Client Satisfaction', icon: Star },
@@ -106,11 +97,11 @@ const images = [img4, img5, img3, img1,img2];
       { name: "Salesforce Consulting", icon: <BsFillPersonCheckFill className="w-6 h-6 text-green-500" />, link: "/services/salesforce-consulting" },
       { name: "Salesforce Migration", icon: <AiOutlineCloudSync className="w-6 h-6 text-green-500" />, link: "/services/salesforce-migration" },
       { name: "Salesforce Integration", icon: <Building2 className="w-6 h-6 text-green-500" />, link: "/services/salesforce-integration" },
-      { name: "AppExchange App Development", icon: <FiGift className="w-6 h-6 text-green-500" />, link: "/services/appexchange-app" },
-      { name: "Salesforce Admin Support", icon: <Shield className="w-6 h-6 text-green-500" />, link: "/services/salesforce-admin" },
+      { name: "AppExchange App Development", icon: <FiGift className="w-6 h-6 text-green-500" />, link: "/services/appexchange-development" },
+      { name: "Salesforce Admin Support", icon: <Shield className="w-6 h-6 text-green-500" />, link: "/services/salesforce-admin-support" },
       { name: "Salesforce CPQ Implementation", icon: <Award className="w-6 h-6 text-green-500" />, link: "/services/salesforce-cpq-implementation" },
-      { name: "Salesforce Development", icon: <Code2 className="w-6 h-6 text-green-500" />, link: "/services/salesforce-dev" },
-      { name: "Salesforce Issue Support", icon: <BiSupport className="w-6 h-6 text-green-500" />, link: "/services/salesforce-support" },
+      { name: "Salesforce Development", icon: <Code2 className="w-6 h-6 text-green-500" />, link: "/services/salesforce-development" },
+      { name: "Salesforce Issue Support", icon: <BiSupport className="w-6 h-6 text-green-500" />, link: "/services/salesforce-issue-support" },
       { name: "Hire A Salesforce Expert", icon: <BsPersonPlus  className="w-6 h-6 text-green-500" />, link: "/services/hire-salesforce-expert" },
       { name: "AI Powered Salesforce Implementation", icon: <FaBrain className="w-6 h-6 text-green-500" />, link: "/services/ai-powered-salesforce" },
     ],
@@ -133,8 +124,8 @@ const images = [img4, img5, img3, img1,img2];
   {
     category: "App Development",
     items: [
-      { name: "Web App Development", icon: <Globe  className="w-6 h-6 text-green-500" />, link: "/services/web-app" },
-      { name: "Mobile App Development", icon: <Smartphone className="w-6 h-6 text-green-500" />, link: "/services/mobile-app" },
+      { name: "Web App Development", icon: <Globe  className="w-6 h-6 text-green-500" />, link: "/services/web-app-development" },
+      { name: "Mobile App Development", icon: <Smartphone className="w-6 h-6 text-green-500" />, link: "/services/mobile-app-development" },
     ],
   },
 ];
@@ -282,7 +273,7 @@ const features = [
 
   const testimonials = [
     {
-      quote: "Winfomi transformed our sales process with their Salesforce expertise. ROI was immediate.",
+      quote: "Impviser transformed our sales process with their Salesforce expertise. ROI was immediate.",
       author: "Sarah Johnson",
       title: "VP of Sales, TechCorp",
       rating: 5
@@ -353,6 +344,11 @@ const [activeCategory, setActiveCategory] = useState("All");
 
     
     <div className="min-h-screen">
+      <SEO
+        title="Impviser | Salesforce Consulting & CRM Solutions"
+        description="Impviser is a certified Salesforce consulting company offering CRM, AI, data analytics, and custom app development solutions. Transform your business with expert digital solutions."
+        canonical="/"
+      />
       {/* Hero Section */}
 {/* Hero Section */}
 <section className="relative bg-white text-[#223794] overflow-hidden">

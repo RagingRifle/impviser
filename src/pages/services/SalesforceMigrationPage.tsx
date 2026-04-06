@@ -10,6 +10,7 @@ import whatWeDoImg from "../../assets/icons4/wwd.png";
 import approachImg from "../../assets/icons4/approach.png";
 import HeroSection from "../../components/HeroSection";
 import { Gauge,  ShieldCheck } from 'lucide-react'; 
+import SEO from "../../components/SEO";
 
 const SalesforceMigrationPage = () => {
   const migrationTypes = [
@@ -64,6 +65,11 @@ const benefits = [
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Salesforce Migration Services | Seamless Data Migration | Impviser"
+        description="Migrate to Salesforce seamlessly with Impviser. Secure data migration, minimal downtime, and expert-led transition for your business."
+        canonical="/services/salesforce-migration"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={mihero}

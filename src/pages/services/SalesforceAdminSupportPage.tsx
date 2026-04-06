@@ -8,6 +8,7 @@ import administrator from "../../assets/icons4/administrator.png";
 import retain from "../../assets/icons4/retain.png";
 import supportPlan from "../../assets/icons4/end-to-end-support.png"; 
 import {BookOpen} from 'lucide-react';
+import SEO from "../../components/SEO";
 
 const SalesforceAdminSupportPage = () => {
   const supportServices = [
@@ -57,6 +58,11 @@ const SalesforceAdminSupportPage = () => {
 ];
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Salesforce Admin Support Services | Impviser"
+        description="Ongoing Salesforce administration support including user management, security, automation, and system maintenance by Impviser."
+        canonical="/services/salesforce-admin-support"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={ah}

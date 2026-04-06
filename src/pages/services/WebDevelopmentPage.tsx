@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Globe } from "lucide-react"; // Removed ArrowRight import
+import SEO from "../../components/SEO";
 
 const WebAppDevelopmentPage = () => {
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Web Application Development Services | Impviser"
+        description="Custom web application development with modern frameworks. Responsive, scalable, and SEO-friendly web apps built by Impviser."
+        canonical="/services/web-app-development"
+      />
       {/* Hero Section with Background Image */}
       <section
         className="py-20 bg-cover bg-center text-white relative"

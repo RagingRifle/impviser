@@ -122,7 +122,7 @@ const Header = () => {
         }`}
       >
         <div className="w-full bg-[#223794] text-white text-sm py-2 flex justify-center items-center">
-  <h2 className="font-medium custom-pulse">Implement Vision. Empower Business.</h2>
+  <p className="font-medium custom-pulse">Implement Vision. Empower Business.</p>
 </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

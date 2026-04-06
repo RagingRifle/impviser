@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Star, TrendingUp, Users, Clock, ArrowRight, Building2, Heart, Factory } from 'lucide-react';
+import SEO from "../components/SEO";
 
 const CustomerStoriesPage = () => {
   const stories = [
@@ -15,7 +16,7 @@ const CustomerStoriesPage = () => {
         { metric: '60%', description: 'Reduction in sales cycle time' },
         { metric: '30%', description: 'Improvement in customer satisfaction' }
       ],
-      quote: "Winfomi transformed our entire sales process. The results exceeded our expectations and the team was professional throughout.",
+      quote: "Impviser transformed our entire sales process. The results exceeded our expectations and the team was professional throughout.",
       author: "Sarah Johnson",
       title: "VP of Sales",
       timeline: "3 months",
@@ -49,7 +50,7 @@ const CustomerStoriesPage = () => {
         { metric: '55%', description: 'Reduction in service response time' },
         { metric: '20%', description: 'Increase in customer retention' }
       ],
-      quote: "Winfomi's expertise in manufacturing processes was evident from day one. They understood our unique challenges and delivered solutions that work.",
+      quote: "Impviser's expertise in manufacturing processes was evident from day one. They understood our unique challenges and delivered solutions that work.",
       author: "Emily Rodriguez",
       title: "Operations Director",
       timeline: "6 months",
@@ -66,6 +67,11 @@ const CustomerStoriesPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Customer Success Stories | Real Results | Impviser"
+        description="See how Impviser helped businesses across technology, healthcare, and manufacturing achieve measurable growth with Salesforce solutions."
+        canonical="/customer-stories"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

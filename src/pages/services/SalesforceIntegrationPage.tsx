@@ -5,6 +5,7 @@ import sync1 from "../../assets/icons4/sync1.png";
 import HeroSection from "../../components/HeroSection";
 import {  Repeat, BarChart2 } from 'lucide-react';
 import ih from "../../assets/icons4/inthero.png";
+import SEO from "../../components/SEO";
 
 const SalesforceIntegrationPage = () => {
   const integrationTypes = [
@@ -54,6 +55,11 @@ const SalesforceIntegrationPage = () => {
 ];
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Salesforce Integration Services | Connect Your Systems | Impviser"
+        description="Integrate Salesforce with your existing business systems. API integration, middleware, and custom connector development by certified experts."
+        canonical="/services/salesforce-integration"
+      />
       {/* Hero Section */}
       <HeroSection
   backgroundImage={ih}

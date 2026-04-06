@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import Favicon from "./components/Favicon";   // <-- add this import
+import Favicon from "./components/Favicon";
+import OrganizationSchema from "./components/OrganizationSchema";
 // Pages...
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -41,7 +42,8 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Favicon />   {/* <-- your favicon is applied here */}
+      <Favicon />
+      <OrganizationSchema />
       <div className="min-h-screen bg-white">
         <Header />
         <main>

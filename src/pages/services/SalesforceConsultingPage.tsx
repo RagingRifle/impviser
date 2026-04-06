@@ -13,6 +13,7 @@ import sc4 from "../../assets/icons4/sc4.png";
 import sc5 from "../../assets/icons4/sc5.png";
 import HeroSection from "../../components/HeroSection";
 import { DollarSign, Zap} from 'lucide-react';
+import SEO from "../../components/SEO";
 
 const SalesforceConsultingPage = () => {
   const features = [
@@ -57,6 +58,11 @@ const benefits = [
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Salesforce Consulting Services | Expert Strategy & Implementation | Impviser"
+        description="Maximize your Salesforce investment with Impviser's certified consulting services. Strategic roadmapping, optimization, and ROI-driven results."
+        canonical="/services/salesforce-consulting"
+      />
       {/* Hero Section */}
       <HeroSection
   backgroundImage={hero}

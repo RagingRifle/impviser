@@ -10,6 +10,7 @@ import {
   Rocket, 
   Headphones 
 } from 'lucide-react';
+import SEO from "../components/SEO";
 
 const ProcessPage = () => {
   const steps = [
@@ -47,6 +48,11 @@ const ProcessPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
+      <SEO
+        title="Our Process | End-to-End Salesforce Implementation | Impviser"
+        description="Discover Impviser's 6-step Salesforce implementation process from consultation to ongoing support for measurable business results."
+        canonical="/process"
+      />
       {/* Hero */}
       <section
   className="py-44 bg-center bg-cover text-center text-white relative"

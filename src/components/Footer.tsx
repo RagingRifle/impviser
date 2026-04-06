@@ -150,7 +150,7 @@ const [showAll, setShowAll] = useState(false);
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © 2025 Impviser. All rights reserved.
+            © 2026 Impviser. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-500 hover:text-[#29ec48] text-sm transition-colors duration-200">Privacy Policy</a>

@@ -8,6 +8,7 @@ import {
   GraduationCap,
   Handshake
 } from 'lucide-react';
+import SEO from "../components/SEO";
 
 const CareersPage = () => {
   const culture = [
@@ -39,6 +40,11 @@ const CareersPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Careers at Impviser | Join Our Growing Team"
+        description="Explore career opportunities at Impviser. We offer growth, learning, and a collaborative culture for passionate tech professionals."
+        canonical="/careers"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-[#1798c1] to-[#223794]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">

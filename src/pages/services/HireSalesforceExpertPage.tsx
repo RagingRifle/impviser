@@ -7,6 +7,7 @@ import cert from "../../assets/icons5/cert.png";
 import flex from "../../assets/icons5/flex.png";
 import track from "../../assets/icons5/track.png";
 import quality from "../../assets/icons5/quality.png";
+import SEO from "../../components/SEO";
 
 
 const HireSalesforceExpertPage = () => {
@@ -59,6 +60,11 @@ const HireSalesforceExpertPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Hire a Salesforce Expert | Dedicated Consultants | Impviser"
+        description="Hire dedicated Salesforce experts for your projects. Certified admins, developers, and architects available on demand from Impviser."
+        canonical="/services/hire-salesforce-expert"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={hh}

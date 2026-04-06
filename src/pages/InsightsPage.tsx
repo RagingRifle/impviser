@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowRight, TrendingUp, Lightbulb, BookOpen, Clock } from 'lucide-react';
+import SEO from "../components/SEO";
 
 const InsightsPage = () => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -18,7 +19,7 @@ const InsightsPage = () => {
   {
     title: 'What to Expect During a Salesforce Migration (And How to Make It Go Smoothly)',
     excerpt: 'A complete walkthrough of the Salesforce migration process, from planning and data cleanup to training and post-launch support.',
-    author: 'Impvizer Team',
+    author: 'Impviser Team',
     date: '—',
     readTime: '7 min read',
     category: 'Salesforce Migration',
@@ -27,7 +28,7 @@ const InsightsPage = () => {
   {
     title: "Still Using a Legacy CRM? Here's Why It Might Be Holding Your Business Back",
     excerpt: 'Legacy CRMs can slow down growth with scattered data, manual work, and poor visibility. Learn why modern CRM systems are essential.',
-    author: 'Impvizer Team',
+    author: 'Impviser Team',
     date: '—',
     readTime: '7 min read',
     category: 'CRM Strategy',
@@ -36,7 +37,7 @@ const InsightsPage = () => {
   {
     title: 'Salesforce vs HubSpot vs Zoho: Which CRM Is Actually Right for Your Business?',
     excerpt: 'An honest comparison of Salesforce, HubSpot, and Zoho to help you choose the right CRM based on your business size and needs.',
-    author: 'Impvizer Team',
+    author: 'Impviser Team',
     date: '—',
     readTime: '7 min read',
     category: 'CRM Comparison',
@@ -57,6 +58,11 @@ const InsightsPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Insights & Resources | Salesforce & CRM Best Practices | Impviser"
+        description="Expert insights on Salesforce trends, CRM strategy, AI automation, and digital transformation. Stay ahead with Impviser thought leadership."
+        canonical="/insights"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-blue-800 to-indigo-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

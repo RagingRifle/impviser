@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle,Layers } from 'lucide-react';
 import { Link } from "react-router-dom";
 import contact from "../assets/contact.png"
+import SEO from "../components/SEO";
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -53,6 +54,11 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-gray-50">
+      <SEO
+        title="Contact Us | Get a Free Consultation | Impviser"
+        description="Reach out to Impviser for a free Salesforce consultation. Email, call, or visit us in Trichy, Tamil Nadu. We respond within 2 hours."
+        canonical="/contact"
+      />
       {/* HERO */}
       <section className="py-16 bg-gradient-to-br from-[#17a5d4]/20 via-[#3450a1]/20 to-[#3ce75e]/20">
         <div className="max-w-7xl mx-auto px-6 text-center">
@@ -235,7 +241,7 @@ Trichy, Tamil Nadu – 621 216</p>
              <div className="bg-[#f0f9f5] p-5 rounded-xl">
   <div className="flex gap-4 justify-center">
     <a 
-      href="mailto:hello@yourcompany.com" 
+      href="mailto:info@impviser.com" 
       className="flex items-center gap-2 px-6 py-3 bg-[#223794] text-white rounded-lg font-medium hover:opacity-95 transition"
     >
       <Mail size={18} /> Email Now

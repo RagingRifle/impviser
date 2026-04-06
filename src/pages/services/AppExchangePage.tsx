@@ -9,6 +9,7 @@ import proven from "../../assets/icons4/proven-expertise.png";
 import security from "../../assets/icons4/security-first.png";
 import support from "../../assets/icons4/end-to-end-support.png";
 import { DollarSign, Globe,Layers } from 'lucide-react';
+import SEO from "../../components/SEO";
 
 const AppExchangePage = () => {
   const appTypes = [
@@ -59,6 +60,11 @@ const AppExchangePage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="AppExchange App Development | Custom Salesforce Apps | Impviser"
+        description="Build and publish custom Salesforce AppExchange applications. ISV partner development and marketplace listing by Impviser."
+        canonical="/services/appexchange-development"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={AP}

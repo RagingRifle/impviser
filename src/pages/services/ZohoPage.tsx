@@ -11,6 +11,7 @@ import {
   Zap,
   Headphones,
 } from "lucide-react";
+import SEO from "../../components/SEO";
 
 const ZohoPage = () => {
   const benefits = [
@@ -92,6 +93,11 @@ const ZohoPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Zoho CRM Consulting & Implementation | Impviser"
+        description="Expert Zoho CRM consulting, implementation, and support services. Customized CRM solutions that scale with your business."
+        canonical="/services/zoho"
+      />
 
       {/* Hero Section */}
       <section

@@ -5,6 +5,7 @@ import { FaHandshake, FaShieldAlt, FaLightbulb, FaUsers } from "react-icons/fa";
 import about from "../assets/about.jpg"
 import social from "../assets/social.webp"
 import office from "../assets/office.jpg"
+import SEO from "../components/SEO";
 
 
 
@@ -50,6 +51,11 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-b from-white via-blue-50 to-green-50">
+      <SEO
+        title="About Impviser | Trusted Salesforce Consulting Partner"
+        description="Learn about Impviser's mission, values, and certified team dedicated to Salesforce and digital transformation."
+        canonical="/about"
+      />
       {/* Hero Section */}
        <section
       className="py-48 relative overflow-hidden text-white bg-cover bg-center"

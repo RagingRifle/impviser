@@ -8,6 +8,7 @@ import udv from "../../assets/icons5/udv.png";
 import ins from "../../assets/icons5/insights.png";
 import dd from "../../assets/icons5/dd.png";
 import vb from "../../assets/icons5/visibility.png";
+import SEO from "../../components/SEO";
 
 const DataAnalyticsPage = () => {
   const analyticsServices = [
@@ -59,6 +60,11 @@ const DataAnalyticsPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Data Analytics Solutions | Business Intelligence | Impviser"
+        description="Transform your data into actionable insights with data analytics services. Custom dashboards, predictive analytics, and reporting."
+        canonical="/services/data-analytics"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={dh}

@@ -12,6 +12,7 @@ import {
   Sliders,
   BookOpen,
 } from "lucide-react";
+import SEO from "../../components/SEO";
 
 const TableauPage = () => {
   const faqs = [
@@ -50,6 +51,11 @@ const TableauPage = () => {
 
   return (
     <div className="bg-gray-50">
+      <SEO
+        title="Tableau Consulting & Visualization Services | Impviser"
+        description="Tableau consulting and advanced data visualization services. Interactive dashboards and business intelligence by certified experts."
+        canonical="/services/tableau"
+      />
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center"

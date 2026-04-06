@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Award, Shield, Star, CheckCircle, ArrowRight, Users, TrendingUp } from 'lucide-react';
+import SEO from "../components/SEO";
 
 const CertificationsPage = () => {
   const certifications = [
@@ -77,6 +78,11 @@ const CertificationsPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Certifications & Partnerships | Impviser"
+        description="Impviser holds top certifications in Salesforce, AWS, Google Cloud, Azure, Tableau, Power BI, and UiPath. Verified expertise you can trust."
+        canonical="/certifications"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

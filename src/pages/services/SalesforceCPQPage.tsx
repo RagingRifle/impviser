@@ -4,6 +4,7 @@ import { Calculator, TrendingUp, Clock, Shield,Scale } from 'lucide-react';
 
 import ch from "../../assets/icons5/cpqhero.jpg";
 import HeroSection from "../../components/HeroSection";
+import SEO from "../../components/SEO";
 
 const SalesforceCPQPage = () => {
   const cpqFeatures = [
@@ -54,6 +55,11 @@ const SalesforceCPQPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Salesforce CPQ Implementation | Configure, Price, Quote | Impviser"
+        description="Implement Salesforce CPQ for faster quoting, accurate pricing, and streamlined sales operations with Impviser's certified CPQ experts."
+        canonical="/services/salesforce-cpq-implementation"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={ch}

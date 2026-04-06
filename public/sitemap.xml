@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://impviser.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://impviser.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://impviser.com/services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://impviser.com/industries</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/process</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://impviser.com/certifications</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://impviser.com/customer-stories</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/insights</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/careers</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://impviser.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-consulting</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-migration</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-integration</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://impviser.com/services/appexchange-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-admin-support</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-cpq-implementation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-development</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://impviser.com/services/salesforce-issue-support</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/data-analytics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/hire-salesforce-expert</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/ai-powered-salesforce</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/zoho</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/hubspot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/mobile-app-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/web-app-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/power-bi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/services/tableau</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

@@ -18,6 +18,7 @@ import ma from "../../assets/icons5/mobapp.png";
 import wd from "../../assets/icons5/wd.png";
 
 import HeroSection from "../../components/HeroSection";
+import SEO from "../../components/SEO";
 
 const SalesforceDevelopmentPage = () => {
  const benefits = [
@@ -45,6 +46,11 @@ const SalesforceDevelopmentPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Custom Salesforce Development | Apex & Lightning | Impviser"
+        description="Custom Salesforce development services including Apex, Lightning Web Components, and platform development for scalable business solutions."
+        canonical="/services/salesforce-development"
+      />
       {/* Hero Section */}
       <HeroSection
         backgroundImage={dih}

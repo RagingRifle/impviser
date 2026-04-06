@@ -10,6 +10,7 @@ import { Clock, UserCheck, Shield, AlertCircle } from 'lucide-react';
 import { FaRegLightbulb, FaRocket, FaCogs, FaCheckCircle } from 'react-icons/fa';
 import HeroSection from "../../components/HeroSection";
 import ch from "../../assets/icons5/support-service.png";
+import SEO from "../../components/SEO";
 
 const SalesforceIssueSupportPage = () => {
    const howItWorks = [
@@ -83,6 +84,11 @@ const SalesforceIssueSupportPage = () => {
 ];
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Salesforce Issue Support & Troubleshooting | Impviser"
+        description="Expert Salesforce troubleshooting and issue resolution. Fast turnaround on bugs, performance issues, and system errors by Impviser."
+        canonical="/services/salesforce-issue-support"
+      />
 
       <HeroSection
         backgroundImage={ch}

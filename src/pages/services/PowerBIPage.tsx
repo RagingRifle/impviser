@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import pbi from "../../assets/pbi.png"
 import powerbiImg from "../../assets/PowerBI.png"
 import HeroSection from "../../components/HeroSection";
+import SEO from "../../components/SEO";
 
 
 const PowerBIPageImpviser = () => {
@@ -139,6 +140,11 @@ const PowerBIPageImpviser = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
+      <SEO
+        title="Power BI Consulting & Dashboard Development | Impviser"
+        description="Microsoft Power BI consulting, dashboard development, and data visualization services for data-driven decision making."
+        canonical="/services/power-bi"
+      />
       {/* Hero Section */}
     <HeroSection
         backgroundImage={pbi}

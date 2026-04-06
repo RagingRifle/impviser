@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Smartphone, Code, Cpu, Shield, Rocket } from 'lucide-react';
+import SEO from "../../components/SEO";
 
 const MobileAppDevelopment = () => {
   const benefits = [
@@ -12,6 +13,11 @@ const MobileAppDevelopment = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Mobile App Development | iOS & Android | Impviser"
+        description="Custom mobile application development for iOS and Android. Cross-platform apps built with Flutter and React Native by Impviser."
+        canonical="/services/mobile-app-development"
+      />
 
       {/* Hero with background image */}
       <section

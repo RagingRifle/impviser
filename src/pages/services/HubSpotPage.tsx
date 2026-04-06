@@ -13,6 +13,7 @@ import {
   Briefcase,       // Industry-Specific Solutions
   User,            // Certified HubSpot Experts
 } from "lucide-react";
+import SEO from "../../components/SEO";
 
 const HubSpotPage = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -103,6 +104,11 @@ const HubSpotPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="HubSpot CRM Implementation & Consulting | Impviser"
+        description="HubSpot CRM consulting and implementation services including marketing automation, sales pipeline setup, and integration support."
+        canonical="/services/hubspot"
+      />
       {/* Hero Section */}
       <section
         className="py-20 text-white relative bg-cover bg-center"

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Banknote, Shield, Home, Heart, Beaker, Handshake, BookOpen, Truck, ShoppingCart, Film } from "lucide-react"; // example icons
 import indu from "../assets/industries1.jpg"
 import HeroSection from "../components/HeroSection";
+import SEO from "../components/SEO";
 
 const IndustriesPage = () => {
  const industries = [
@@ -60,6 +61,11 @@ const IndustriesPage = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEO
+        title="Industries We Serve | Cross-Sector CRM Expertise | Impviser"
+        description="Tailored Salesforce and CRM solutions for banking, healthcare, real estate, education, manufacturing, retail, and more."
+        canonical="/industries"
+      />
 
        <HeroSection
               backgroundImage={indu}
