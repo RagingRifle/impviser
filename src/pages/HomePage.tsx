@@ -346,7 +346,7 @@ const [activeCategory, setActiveCategory] = useState("All");
     <div className="min-h-screen">
       <SEO
         title="Impviser | Salesforce Consulting & CRM Solutions"
-        description="Impviser is a certified Salesforce consulting company offering CRM, AI, data analytics, and custom app development solutions. Transform your business with expert digital solutions."
+        description="Impviser — certified Salesforce consulting company offering CRM, AI, data analytics, and custom app development solutions."
         canonical="/"
       />
       {/* Hero Section */}
