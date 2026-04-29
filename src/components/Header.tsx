@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { BsFillPersonCheckFill } from "react-icons/bs";
-import Logo from "../assets/imviser_logo.png";
+import Logo from "../assets/impviser_logo.png";
 import { FiGift } from "react-icons/fi";
 import { BsPersonPlus } from "react-icons/bs";
 import { AiOutlineCloudSync } from "react-icons/ai";
