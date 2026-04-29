@@ -26,7 +26,7 @@ import tableau from "../assets/icons3/tableau.webp";
 import zoho from "../assets/icons3/zoho.webp";
 import flutter from "../assets/icons3/flutter.webp";
 import HTML from "../assets/icons3/HTML.webp";
-import js from "../assets/icons3/js.webp";
+import js from "../assets/icons3/Js.webp";
 import nodejs from "../assets/icons3/nodejs.webp";
 import react from "../assets/icons3/react.webp";
 import { FaBrain } from "react-icons/fa";
