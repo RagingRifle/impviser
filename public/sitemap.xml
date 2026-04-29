@@ -27,4 +27,7 @@
   <url><loc>https://impviser.com/services/web-app-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://impviser.com/services/power-bi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://impviser.com/services/tableau</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/insights/salesforce-migration-guide</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/insights/legacy-crm-holding-business-back</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://impviser.com/insights/salesforce-vs-hubspot-vs-zoho</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

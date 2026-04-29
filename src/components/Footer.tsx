@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 import Logo from "../assets/Imviser_Logo.png";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa6";
@@ -43,13 +43,13 @@ const [showAll, setShowAll] = useState(false);
               Empowering businesses through innovative technology solutions and expert consulting services.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/company/impviser-technologies/people/?viewAsMember=true" className="text-gray-500 hover:text-[#223794] transition-colors duration-200">
+              <a href="https://www.linkedin.com/company/impviser-technologies/people/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="Impviser on LinkedIn" className="text-gray-500 hover:text-[#223794] transition-colors duration-200">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://x.com/impviser?t=D-TEh7tEMTUxVkP6CCRjag&s=08" className="text-gray-500 hover:text-[#223794] transition-colors duration-200">
+              <a href="https://x.com/impviser?t=D-TEh7tEMTUxVkP6CCRjag&s=08" target="_blank" rel="noopener noreferrer" aria-label="Impviser on X" className="text-gray-500 hover:text-[#223794] transition-colors duration-200">
                 <RiTwitterXLine className="w-5 h-5" />
               </a>
-              <a href="https://www.instagram.com/impviserofficial?igsh=cGlrZ28yc3Rxdmxh" className="text-gray-500 hover:text-[#223794] transition-colors duration-200">
+              <a href="https://www.instagram.com/impviserofficial?igsh=cGlrZ28yc3Rxdmxh" target="_blank" rel="noopener noreferrer" aria-label="Impviser on Instagram" className="text-gray-500 hover:text-[#223794] transition-colors duration-200">
                 <FaInstagram className="w-5 h-5" />
               </a>
             </div>
@@ -114,7 +114,12 @@ const [showAll, setShowAll] = useState(false);
   </li> 
   <li>
     <Link to="/industries" className="hover:text-[#223794] transition-colors duration-200">Industries</Link></li>
-   
+  <li>
+    <Link to="/insights/salesforce-migration-guide" className="hover:text-[#223794] transition-colors duration-200">Salesforce Migration Guide</Link></li>
+  <li>
+    <Link to="/insights/legacy-crm-holding-business-back" className="hover:text-[#223794] transition-colors duration-200">Legacy CRM Issues</Link></li>
+  <li>
+    <Link to="/insights/salesforce-vs-hubspot-vs-zoho" className="hover:text-[#223794] transition-colors duration-200">CRM Comparison</Link></li>
    </ul> 
    </div>
 
@@ -153,9 +158,9 @@ const [showAll, setShowAll] = useState(false);
             © 2026 Impviser. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-500 hover:text-[#29ec48] text-sm transition-colors duration-200">Privacy Policy</a>
-            <a href="#" className="text-gray-500 hover:text-[#29ec48] text-sm transition-colors duration-200">Terms of Service</a>
-            <a href="#" className="text-gray-500 hover:text-[#29ec48] text-sm transition-colors duration-200">Cookie Policy</a>
+            <span className="text-gray-500 text-sm">Privacy Policy</span>
+            <span className="text-gray-500 text-sm">Terms of Service</span>
+            <span className="text-gray-500 text-sm">Cookie Policy</span>
           </div>
         </div>
       </div>

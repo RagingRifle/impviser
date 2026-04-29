@@ -691,6 +691,86 @@ const [activeCategory, setActiveCategory] = useState("All");
 
 
 
+
+{/* Latest Insights / Blog Section */}
+<section className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl font-bold bg-gradient-to-r from-[#223794] to-[#29ec48] bg-clip-text text-transparent mb-4">
+        Latest Insights
+      </h2>
+      <p className="text-gray-600 max-w-2xl mx-auto">
+        Expert perspectives on Salesforce, CRM strategy, and digital transformation to help your business grow.
+      </p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[
+        {
+          title: "What to Expect During a Salesforce Migration",
+          excerpt: "A complete walkthrough of the migration process, from planning and data cleanup to training and go-live.",
+          category: "Salesforce Migration",
+          link: "/insights/salesforce-migration-guide",
+          image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400",
+        },
+        {
+          title: "Still Using a Legacy CRM? Here's Why It Might Be Holding You Back",
+          excerpt: "Discover how scattered data, manual work, and poor visibility are quietly costing you deals.",
+          category: "CRM Strategy",
+          link: "/insights/legacy-crm-holding-business-back",
+          image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400",
+        },
+        {
+          title: "Salesforce vs HubSpot vs Zoho: Which CRM Is Right?",
+          excerpt: "An honest, no-bias comparison to help you pick the right CRM for your business size and needs.",
+          category: "CRM Comparison",
+          link: "/insights/salesforce-vs-hubspot-vs-zoho",
+          image: "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=400",
+        },
+      ].map((post, i) => (
+        <motion.div
+          key={i}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: i * 0.15 }}
+        >
+          <Link to={post.link} className="group block h-full">
+            <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col">
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <span className="absolute top-4 left-4 bg-[#223794] text-white px-3 py-1 rounded-full text-xs font-semibold">
+                  {post.category}
+                </span>
+              </div>
+              <div className="p-6 flex-1 flex flex-col">
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-[#223794] transition-colors mb-2">
+                  {post.title}
+                </h3>
+                <p className="text-gray-500 text-sm flex-1">{post.excerpt}</p>
+                <span className="mt-4 text-[#223794] font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
+                  Read More →
+                </span>
+              </div>
+            </div>
+          </Link>
+        </motion.div>
+      ))}
+    </div>
+    <div className="text-center mt-10">
+      <Link
+        to="/insights"
+        className="inline-block border-2 border-[#223794] text-[#223794] px-8 py-3 rounded-lg font-semibold hover:bg-[#223794] hover:text-white transition-all duration-200"
+      >
+        View All Insights
+      </Link>
+    </div>
+  </div>
+</section>
+
     <section className="py-16 ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 bg-white overflow-hidden">
         

@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowRight, TrendingUp, Lightbulb, BookOpen, Clock } from 'lucide-react';
 import SEO from "../components/SEO";
 
 const InsightsPage = () => {
-  const [selectedPost, setSelectedPost] = useState(null);
   const featuredPost = {
     title: 'The Future of Salesforce: AI and Automation Trends for 2025',
     excerpt: 'Explore the latest AI capabilities in Salesforce and how businesses can leverage automation to drive growth and efficiency.',
@@ -23,6 +21,7 @@ const InsightsPage = () => {
     date: '—',
     readTime: '7 min read',
     category: 'Salesforce Migration',
+    slug: '/insights/salesforce-migration-guide',
     image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
@@ -32,6 +31,7 @@ const InsightsPage = () => {
     date: '—',
     readTime: '7 min read',
     category: 'CRM Strategy',
+    slug: '/insights/legacy-crm-holding-business-back',
     image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
@@ -41,6 +41,7 @@ const InsightsPage = () => {
     date: '—',
     readTime: '7 min read',
     category: 'CRM Comparison',
+    slug: '/insights/salesforce-vs-hubspot-vs-zoho',
     image: 'https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=400'
   }
 ];
@@ -198,13 +199,13 @@ const InsightsPage = () => {
                     </div>
                     <span>{post.date}</span>
                   </div>
-<button 
-  onClick={() => setSelectedPost(post)}
+<Link 
+  to={post.slug}
   className="text-blue-800 font-medium hover:text-blue-900 transition-colors duration-200 flex items-center space-x-2 group"
 >
   <span>Read More</span>
   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
-</button>
+</Link>
                 </div>
               </article>
             ))}

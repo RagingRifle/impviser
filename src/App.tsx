@@ -16,6 +16,7 @@ import CustomerStoriesPage from "./pages/CustomerStoriesPage";
 import InsightsPage from "./pages/InsightsPage";
 import CareersPage from "./pages/CareersPage";
 import ContactPage from "./pages/ContactPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 // Individual Service Pages...
 import SalesforceConsultingPage from "./pages/services/SalesforceConsultingPage";
@@ -36,6 +37,10 @@ import WebDevelopmentPage from "./pages/services/WebDevelopmentPage";
 import PowerBIPage from "./pages/services/PowerBIPage";
 import TableauPage from "./pages/services/TableauPage"; 
 
+// Blog Pages...
+import SalesforceMigrationBlog from "./pages/blog/SalesforceMigrationBlog";
+import LegacyCrmBlog from "./pages/blog/LegacyCrmBlog";
+import CrmComparisonBlog from "./pages/blog/CrmComparisonBlog";
 
 
 function App() {
@@ -78,6 +83,13 @@ function App() {
             <Route path="/services/power-bi" element={<PowerBIPage />} />
             <Route path="/services/tableau" element={<TableauPage />} />
 
+            {/* Blog Pages */}
+            <Route path="/insights/salesforce-migration-guide" element={<SalesforceMigrationBlog />} />
+            <Route path="/insights/legacy-crm-holding-business-back" element={<LegacyCrmBlog />} />
+            <Route path="/insights/salesforce-vs-hubspot-vs-zoho" element={<CrmComparisonBlog />} />
+
+            {/* 404 Catch-all */}
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />
