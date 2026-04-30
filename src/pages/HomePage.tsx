@@ -2,6 +2,7 @@ import React, { useState , useEffect } from "react";
 import Slider from "react-slick";
 import { Link } from 'react-router-dom';
 import { Send} from "lucide-react";
+import SocialShare from "../components/SocialShare";
 import { motion } from "framer-motion";
 import { AiOutlineCloudSync } from "react-icons/ai";
 import { IoMdAppstore } from "react-icons/io";
@@ -349,6 +350,7 @@ const [activeCategory, setActiveCategory] = useState("All");
         description="Impviser — certified Salesforce consulting company offering CRM, AI, data analytics, and custom app development solutions."
         canonical="/"
       />
+      <SocialShare />
       {/* Hero Section */}
 {/* Hero Section */}
 <section className="relative bg-white text-[#223794] overflow-hidden">
@@ -688,6 +690,67 @@ const [activeCategory, setActiveCategory] = useState("All");
         </div>
       </div>
     </section>
+
+{/* SEO Content Section — Authority Content with External Links */}
+<section className="py-20 bg-white">
+  <div className="max-w-5xl mx-auto px-6 lg:px-12">
+    <h2 className="text-3xl font-bold text-center mb-6 bg-gradient-to-r from-[#223794] to-[#29ec48] bg-clip-text text-transparent">
+      Your Trusted Partner for CRM, Cloud & Digital Transformation
+    </h2>
+
+    <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6 text-justify">
+      <p>
+        In today's competitive landscape, businesses need more than just software — they need a strategic technology partner who understands their goals. At Impviser, we combine deep domain expertise with hands-on experience across the{" "}
+        <a href="https://www.salesforce.com/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Salesforce</a>{" "}
+        ecosystem, including Sales Cloud, Service Cloud, Marketing Cloud, Experience Cloud, and{" "}
+        <a href="https://www.salesforce.com/products/cpq/overview/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Salesforce CPQ</a>,
+        to help organizations streamline their customer lifecycle from lead to loyalty.
+      </p>
+
+      <p>
+        Whether you're a fast-growing startup evaluating your first CRM or an enterprise planning a complex multi-cloud migration, our certified consultants guide you through every stage — from discovery and requirements gathering to deployment, training, and post-launch optimization. We've helped companies across healthcare, financial services, manufacturing, education, and retail unlock measurable value from their technology investments.
+      </p>
+
+      <p>
+        Beyond Salesforce, we offer expert implementation and support for leading CRM platforms including{" "}
+        <a href="https://www.hubspot.com/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">HubSpot CRM</a>{" "}
+        and{" "}
+        <a href="https://www.zoho.com/crm/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Zoho CRM</a>.
+        Each platform serves different business needs: HubSpot excels at inbound marketing automation and content-driven growth, while Zoho provides an affordable, highly customizable suite ideal for small and mid-sized businesses. Our team helps you evaluate, implement, and integrate the right CRM so your sales and marketing teams can work smarter, not harder.
+      </p>
+
+      <p>
+        Data is the backbone of every successful digital transformation. Our analytics practice leverages industry-leading tools like{" "}
+        <a href="https://powerbi.microsoft.com/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Microsoft Power BI</a>{" "}
+        and{" "}
+        <a href="https://www.tableau.com/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Tableau</a>{" "}
+        to turn raw data into actionable insights. From building real-time executive dashboards to predictive analytics models powered by{" "}
+        <a href="https://www.salesforce.com/artificial-intelligence/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Salesforce Einstein AI</a>,
+        we empower your leadership team to make data-driven decisions with confidence.
+      </p>
+
+      <p>
+        Our custom application development services span web and mobile platforms, using modern frameworks like{" "}
+        <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">React</a>,{" "}
+        <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Node.js</a>, and{" "}
+        <a href="https://flutter.dev/" target="_blank" rel="noopener noreferrer" className="text-[#223794] font-semibold hover:underline">Flutter</a>{" "}
+        to build performant, scalable solutions. Whether you need a customer-facing portal, an internal operations tool, or a native mobile app, we architect solutions that integrate seamlessly with your existing CRM and cloud infrastructure.
+      </p>
+
+      <p>
+        What truly sets Impviser apart is our commitment to long-term partnership. We don't just deliver a project and walk away — we provide ongoing managed services, proactive health checks, and continuous improvement recommendations so your technology stack evolves alongside your business. Our pre-built accelerators reduce time-to-value, while our agile methodology ensures transparency and adaptability at every milestone.
+      </p>
+
+      <p>
+        Ready to accelerate your digital transformation? Explore our{" "}
+        <a href="/insights" className="text-[#223794] font-semibold hover:underline">latest insights</a>{" "}
+        on CRM strategy, Salesforce best practices, and emerging technology trends. Or{" "}
+        <a href="/contact" className="text-[#223794] font-semibold hover:underline">get in touch</a>{" "}
+        with our team to schedule a free consultation and discover how Impviser can help you implement your vision and empower your business.
+      </p>
+    </div>
+  </div>
+</section>
 
 
 
